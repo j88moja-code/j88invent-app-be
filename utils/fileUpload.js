@@ -3,7 +3,7 @@ const multer = require("multer");
 // Define file storage
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
-    cb(null, "/home/j0b3/projects/MERN_App/uploads");
+    cb(null, "uploads");
   },
   filename: function (req, file, cb) {
     cb(
