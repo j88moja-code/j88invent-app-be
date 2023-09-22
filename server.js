@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cookieParser());
 const corsOptions = {
-  origin: ["http://localhost:3000", "https://mern-inventory-app.vercel.app"],
+  origin: ["http://localhost:3000", "https://j88invent-app.vercel.app"],
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
 };
